@@ -1,6 +1,6 @@
 {
   "name": "@mmre/service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
   },
   "devDependencies": {
-    "@mmre/shared": "0.0.1",
+    "@mmre/shared": "^0.0.2",
     "prettier": "1.18.2",
     "ts-node": "8.3.0",
     "tslint": "5.19.0",

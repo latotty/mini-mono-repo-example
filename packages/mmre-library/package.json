@@ -1,13 +1,13 @@
 {
   "name": "@mmre/library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.",
   "license": "MIT",
   "scripts": {
     "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
   },
   "devDependencies": {
-    "@mmre/shared": "0.0.1",
+    "@mmre/shared": "^0.0.2",
     "prettier": "1.18.2",
     "tslint": "5.19.0",
     "tslint-config-airbnb": "5.11.1",
