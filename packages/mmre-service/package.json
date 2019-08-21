@@ -5,10 +5,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
   },
   "devDependencies": {
-    "@mmre/shared": "1.0.0",
+    "@mmre/shared": "0.0.1",
+    "prettier": "1.18.2",
     "ts-node": "8.3.0",
     "tslint": "5.19.0",
     "tslint-config-airbnb": "5.11.1",

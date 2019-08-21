@@ -4,7 +4,11 @@
   "main": "src/index.ts",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
+  },
   "devDependencies": {
+    "prettier": "1.18.2",
     "tslint": "5.19.0",
     "tslint-config-airbnb": "5.11.1",
     "tslint-config-prettier": "1.18.0",
