@@ -4,6 +4,7 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
+    "test": "echo ok",
     "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
   },
   "devDependencies": {

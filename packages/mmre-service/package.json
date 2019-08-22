@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node src/index.ts",
+    "test": "echo ok",
     "lint": "tslint -p tsconfig.json \"./src/**/*ts\""
   },
   "devDependencies": {
