@@ -1,4 +1,4 @@
-import { User, createUser } from '@mmre/shared';
+import { User, createUser } from '@mmre/library';
 
 const user: User = createUser({ name: 'dummy' });
 
